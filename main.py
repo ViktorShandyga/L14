@@ -36,8 +36,8 @@ if __name__ == "__main__":
     # Створення відділу
     it_department = Department("IT")
 
-    emp1 = Employee("Vikto", "Developer", 10000)
-    emp2 = Employee("Bob", "Tester", 50000)
+    emp1 = Employee("Viktor", "Developer", 50000)
+    emp2 = Employee("Bob", "Tester", 40000)
     emp3 = Employee("Vova Adidas", "Manager", 100000)
 
     it_department.add_employee(emp1)
